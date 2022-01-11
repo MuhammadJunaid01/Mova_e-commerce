@@ -1,0 +1,16 @@
+.navigationContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.404);
+  padding-bottom: 15px;
+}
+.logo img {
+  margin-left: 12px;
+}
+.cart i {
+  font-size: 30px;
+  color: #000000;
+  margin-right: 14px;
+  cursor: pointer;
+}

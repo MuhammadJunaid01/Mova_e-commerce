@@ -1,0 +1,26 @@
+.collectionBtnGroup {
+  display: flex;
+}
+
+.collectionBtnGroup button {
+  width: 200px;
+  line-height: 20px;
+  background-color: #2d2147;
+  color: white;
+  padding: 20px;
+  border: none;
+  outline: none;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media (min-width: 200px) and (max-width: 640px) {
+  .collectionBtnGroup {
+    display: block;
+    padding: 0px 20px;
+  }
+  .collectionBtnGroup button {
+    margin-bottom: 15px;
+  }
+}

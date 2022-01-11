@@ -1,0 +1,25 @@
+.collectionContainer {
+  padding: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+.collectionWraper {
+  display: flex;
+}
+.collectionItem {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.collectionBanner img {
+  height: 300px;
+  width: 100%;
+}
+
+@media (min-width: 200px) and (max-width: 640px) {
+  .collectionContainer {
+    padding: 10px;
+    display: block;
+  }
+}
